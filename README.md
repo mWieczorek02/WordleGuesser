@@ -1,6 +1,7 @@
 # WordleGuesser
 
 WordleGuesser is a simple chrome extension that auto-completes wordle. It works by eliminating incorrect words and doing some basic maths.
+
 ![chrome_2z8d17HOl2](https://user-images.githubusercontent.com/95188951/169277470-306e8539-fd4b-4136-9a99-a7ad7cba467f.gif)
 
 
