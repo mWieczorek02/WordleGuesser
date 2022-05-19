@@ -33,7 +33,9 @@ module.exports = {
           from: "./src",
           to: ".",
           filter: async (resourcePath) =>
-            (resourcePath.endsWith(".html") || resourcePath.endsWith(".css")) &&
+            (resourcePath.endsWith(".html") ||
+              resourcePath.endsWith(".css") ||
+              resourcePath.includes("src/manifest.json")) &&
             !resourcePath.includes("node_modules"),
         },
       ],

@@ -1,0 +1,19 @@
+{
+  "name": "WordleGuesser",
+  "description": "imple chrome extension that auto-completes wordle.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.nytimes.com/games/wordle/index.html"]
+    }
+  ]
+}
