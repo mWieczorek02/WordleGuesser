@@ -1,6 +1,6 @@
 {
   "name": "WordleGuesser",
-  "description": "imple chrome extension that auto-completes wordle.",
+  "description": "simple chrome extension that auto-completes wordle.",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting", "storage"],
